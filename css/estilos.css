@@ -1,0 +1,43 @@
+.bg-colornav{
+    background-color: #7b71b5
+}
+.bg-colorbody{
+    background-color: #998ed2;
+} 
+.colorbotom{            
+    --bs-btn-color: #7b71b5!important;
+    --bs-btn-border-color: #7b71b5!important;
+    
+
+    background-color:var(--bs-btn-border-color) #7b71b5!important;
+    border-color: var(--bs-btn-border-color) #7b71b5!important;
+}
+
+.btn:hover {
+    color: #fff!important;
+    border-color: var(--bs-btn-border-color) white!important;
+    --bs-btn-border-color: white!important;
+}
+.bg-imagen{ 
+    height: 100vh;
+    background-image: url(/img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+h1{
+ text-transform:capitalize; 
+ font-size: 60px;
+} 
+a{
+    text-decoration:none;
+}
+body{
+    font-family:'Roboto Slab', serif;
+}
+li{
+    text-transform: capitalize;
+}
+#carrusel{
+    width: 50vh;
+}
+
